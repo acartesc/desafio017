@@ -4,8 +4,8 @@ class Dog
   
   def initialize(perro)
     @nombre = perro[:nombre]
-    @raza = perro[:raza]
-    @color = perro[:color]
+    #@raza = perro[:raza] no son necesarios dado que no se usan
+    #@color = perro[:color]
   end
   
   def ladrar
